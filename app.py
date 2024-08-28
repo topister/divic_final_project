@@ -49,4 +49,4 @@ def predict():
 
 # Run the app
 if __name__ == '__main__':
-    app.run(debug=True, port=5005)  # Use port 5001 if port 5000 is in use
+    app.run(debug=True, port=5000)  

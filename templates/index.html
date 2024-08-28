@@ -50,13 +50,13 @@
             border-radius: 4px;
         }
         .form-group input[type="submit"] {
-            background-color: #4CAF50;
+            background-color: #083a63;;
             color: white;
             border: none;
             cursor: pointer;
         }
         .form-group input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: #083a63;
         }
         .prediction {
             margin-top: 20px;
@@ -76,7 +76,7 @@
         <a href="{{ url_for('contact') }}">Contact</a>
     </div>
     <div class="container">
-        <h1>Course Prediction</h1>
+        <h1 style="text-align: center;">Course Prediction</h1>
         <form action="{{ url_for('predict') }}" method="post">
             <div class="form-group">
                 <label for="English">English:</label>
